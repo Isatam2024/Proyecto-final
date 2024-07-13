@@ -1,3 +1,12 @@
+create database sistema_de_gestion_de_clientes
+
+CREATE TABLE clientes (
+    ID_cliente INT(11) AUTO_INCREMENT PRIMARY KEY,
+    Nombre VARCHAR(45),
+    Email VARCHAR(45),
+    Telefono VARCHAR(45)
+);
+
 DELIMITER //
 CREATE PROCEDURE clientes()
 BEGIN
